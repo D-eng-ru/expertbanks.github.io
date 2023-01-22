@@ -1,9 +1,19 @@
 /* Expert Banks */
 /* navbar css */
+
 body {
     background: linear-gradient(283.22deg, #DDECFE 0%, #FFFFFF 97.63%);
     font-family: 'Iowan Old Style';
     font-style: normal;
+}
+
+.container {
+    width: 1240px;
+}
+
+i {
+    margin: 0.2rem;
+    vertical-align: middle;
 }
 
 .btn-outline-primary {
@@ -44,6 +54,7 @@ color: #000000;
     --bs-navbar-padding-y: 0;
    /* padding-left: 12%; */
     background: #9EF0CD;
+    padding-top: 0.7rem;
 }
 
 nav li {
@@ -59,7 +70,8 @@ nav li {
     border: 0px;
     font-size: 0.7rem;
     color: #677871; 
-    padding: 0.65rem;
+    padding-left: 0.65rem;
+    padding-left: 0.65rem;
     background-color: #A6DDC7;
 }
 
@@ -72,14 +84,16 @@ nav li {
     font-family: 'Iowan Old Style';
 }
 .block-1-bg {
+    background-image: url("../images/block-1-bg.png");
     background-color: #9EF0CD;
 }
+
 .block1 {
     font-family:'Iowan Old Style';
     /* padding-top: 5%;
     padding-left: 10%; */
     text-align: left;
-    padding-top: 5rem;
+    padding-top: 4rem;
     
 }
 
@@ -110,6 +124,7 @@ nav li {
 }
 
 .block1 p {
+    margin-top: 1rem;
 }
 
 .blk1 {
@@ -117,8 +132,9 @@ nav li {
     padding-right: 3rem;
 }
 
-.blk1_1 {
-    height: 100%;
+small {
+    color: #3C3C3C;
+    text-transform: uppercase;
 }
 
 .banner-image {
@@ -138,6 +154,26 @@ nav li {
     padding-top: 5%;
 }
 
-.block4 {
-    padding: 5%;
+.block3 {
+    
+}
+
+.block3 img {
+    margin: 3rem;
+}
+
+.list-group {
+    margin-top: 2rem;
+}
+
+.list-group li {
+ border-top: none;
+ border-bottom: none;
+ border-left: none;
+ background: none;
+    
+}
+
+.list-group li:last-child {
+    border-right: none;
 }

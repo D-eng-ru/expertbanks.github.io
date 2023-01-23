@@ -2,7 +2,7 @@
 /* navbar css */
 
 body {
-    background: linear-gradient(283.22deg, #DDECFE 0%, #FFFFFF 97.63%);
+    background: linear-gradient(319deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 92%);
     font-family: 'Iowan Old Style';
     font-style: normal;
 }
@@ -14,6 +14,10 @@ body {
 i {
     margin: 0.2rem;
     vertical-align: middle;
+}
+
+.subtext {
+    color:#9D9D9D;
 }
 
 .btn-outline-primary {
@@ -53,7 +57,6 @@ color: #000000;
 .navbar {
     --bs-navbar-padding-y: 0;
    /* padding-left: 12%; */
-    background: #9EF0CD;
     padding-top: 0.7rem;
 }
 
@@ -84,7 +87,8 @@ nav li {
     font-family: 'Iowan Old Style';
 }
 .block-1-bg {
-    background-image: url("../images/block-1-bg.png");
+    background-image: url("../images/alhambra-3098633.jpg");
+    background-size: cover;
     background-color: #9EF0CD;
 }
 
@@ -93,7 +97,7 @@ nav li {
     /* padding-top: 5%;
     padding-left: 10%; */
     text-align: left;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
     
 }
 
@@ -129,7 +133,6 @@ nav li {
 
 .blk1 {
     padding-bottom: 5%;
-    padding-right: 3rem;
 }
 
 small {
@@ -160,6 +163,11 @@ small {
 
 .block3 img {
     margin: 3rem;
+}
+
+.block4 {
+    margin-top: 3rem;
+    text-align: center;
 }
 
 .list-group {

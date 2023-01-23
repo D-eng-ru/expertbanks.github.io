@@ -72,14 +72,16 @@ nav li {
     border-radius: 100%;
     border: 0px;
     font-size: 0.7rem;
-    color: #677871; 
-    padding-left: 0.65rem;
-    padding-left: 0.65rem;
-    background-color: #A6DDC7;
+    color: aliceblue; 
+    padding-left: 0.1rem;
+    padding-left: 0.1rem;
+    background-color: transparent;
 }
 
 .language-btn button:hover {
-    background-color: #C6E9DB;
+    background-color: transparent;
+    color: #3C3C3C
+    
 }
 
 .padding-for-header {
@@ -158,16 +160,40 @@ small {
 }
 
 .block3 {
-    
-}
-
-.block3 img {
     margin: 3rem;
 }
 
+.block3 img {
+    
+}
+
+.services-icon {
+    width: 128px;
+    height: 128px;
+}
+
+.services-title {
+    padding: 1rem;
+}
+
+
 .block4 {
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding-left: 2rem;
+}
+
+.services-card {
+    padding-right: 2.5rem;
+}
+
+.block4-title {
     text-align: center;
+}
+.block4-title div {
+        border-style: solid;
+    border-bottom: none;
+    border-top: none;
 }
 
 .list-group {

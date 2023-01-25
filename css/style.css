@@ -2,10 +2,11 @@
 /* navbar css */
 
 body {
-    background: linear-gradient(319deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 92%);
+    background: linear-gradient(319deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 92%);
     font-family: 'Iowan Old Style';
     font-style: normal;
 }
+
 
 .container {
     width: 1240px;
@@ -43,10 +44,14 @@ font-family: 'Iowan Old Style';
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
-line-height: 33px;
+line-height: 20px;
 display: flex;
 align-items: center;
-color: #000000;
+color: #3a8454;
+padding-right: 1rem;
+}
+.logo_brand:hover {
+ color: #3a8454;
 }
 
 .logo_brand img {
@@ -54,15 +59,42 @@ color: #000000;
     
 }
 
-.navbar {
-    --bs-navbar-padding-y: 0;
-   /* padding-left: 12%; */
-    padding-top: 0.7rem;
+.btn {
+    font-family: 'Open Sans';
 }
 
-nav li {
+.btn-green {
+    background-color: #3a8454;
+    color: #fff;
+}
+
+..btn-green:hover {
+    background-color: aquamarine;
+}
+
+.navigation {
+    --bs-navbar-padding-y: 0;
+   /* padding-left: 12%; */
+    padding-top: 0.2rem;
+    padding-bottom: 0.4rem;
+    font-size: 1.1em;
+}
+
+nav ul>li {
     padding-right: 1rem;
 }
+
+.sub-navigation {
+    background-color: #e6ebee;
+    padding: 0.2rem;
+    font-size: 0.8em;
+}
+
+.navbar-nav li {
+    font-family: 'Open Sans';
+}
+
+
 
 .language-btn {
     margin-right: 1rem;

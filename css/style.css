@@ -16,8 +16,8 @@ body {
 }
 
 .news-block {
-    margin-top: 5rem;
-    padding-top: 5rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
     background-color: #F5EBE6;
 }
@@ -26,6 +26,10 @@ body {
     border-style: none;
     border-radius: 0px;
     height: 100%;
+}
+
+.card-body {
+    padding: 7%;
 }
 
 .card-title {

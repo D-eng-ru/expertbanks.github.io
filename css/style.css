@@ -34,6 +34,8 @@ body {
 
 .card img {
     border-radius: 0px;
+    height: 20%;
+    object-fit: cover;
 }
 
 .data {

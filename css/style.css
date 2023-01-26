@@ -4,14 +4,142 @@
 body {
     background: #fff;
     font-family: 'Iowan Old Style';
+    color: #333;
     font-style: normal;
 }
 
-
+.navbar {
+    z-index: 10;
+}
 .container {
     width: 1240px;
 }
 
+.news-block {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #F5EBE6;
+}
+
+.card {
+    border-style: none;
+    border-radius: 0px;
+    height: 100%;
+}
+
+.card-title {
+    color: #3a8454;
+}
+
+.card img {
+    border-radius: 0px;
+}
+
+.data {
+    padding-top: 1rem;
+    font-size: 0.8em;
+    color: #BDB1AC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.card-text {
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+.card-footer {
+    background: none;
+    border-top: 0px;
+    padding-bottom: 2rem;
+}
+
+.card-footer a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 100%;
+    vertical-align: bottom;
+}
+
+.carousel-item:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.carousel-item {
+    max-height: 600px;
+}
+.carousel-item img {
+    z-index: -1;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    left: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+    width: 45%;
+    z-index: 5;
+    font-family: 'Open Sans';
+    }
+
+
+.carousel-caption h5 {
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.carousel-caption p {
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+.carousel-control-next {
+    width: 7%;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: transparent;
+}
+.carousel-control-next a:hover {
+    color: #fff;
+}
+
+
+.carousel-control-prev {
+    width: 7%;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: transparent;
+}
+
+.carousel-control-prev a:hover {
+    color: #fff;
+}
+
+
+
+.carousel-caption a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+    
 i {
     margin: 0.2rem;
     vertical-align: middle;
@@ -43,7 +171,7 @@ i {
     font-weight: 600;
     letter-spacing: normal;
     text-decoration: none;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.1rem;
     border-bottom-width: 1px;
     border-bottom-color: aliceblue;
     display: inline-block;
@@ -87,16 +215,16 @@ padding-right: 1rem;
     color: #fff;
 }
 
-..btn-green:hover {
-    background-color: aquamarine;
+.btn-green:hover {
+    background-color: #ACF2C5;
 }
 
 .navigation {
     --bs-navbar-padding-y: 0;
-   /* padding-left: 12%; */
-    padding-top: 0.2rem;
-    padding-bottom: 0.4rem;
-    font-size: 1.1em;
+   /* padding-left: 12%; 
+   /* padding-top: 0.2rem;
+    padding-bottom: 0.4rem;*/
+    font-size: 0.9em;
 }
 
 nav ul>li {

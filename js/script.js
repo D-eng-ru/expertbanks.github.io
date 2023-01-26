@@ -1,5 +1,5 @@
     window.sr = ScrollReveal();
-        sr.reveal('.navigation', {
+        sr.reveal('.navbar', {
             duration: 2000,
             distance: '20px',
             origin: 'bottom'
@@ -40,6 +40,11 @@
             origin: 'bottom'
         }); 
           sr.reveal('footer', {
+            duration: 2000,
+            distance: '30px',
+            origin: 'bottom'
+        }); 
+          sr.reveal('.carousel-inner', {
             duration: 2000,
             distance: '30px',
             origin: 'bottom'

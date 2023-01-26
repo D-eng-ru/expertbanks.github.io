@@ -244,6 +244,11 @@ nav ul>li {
 .dropdown-menu li {
     padding-left: 30px;
 }
+
+.dropdown-menu li:last-child {
+    padding-bottom: 0.5rem;
+}
+
 .dropdown-menu li:hover {
     background-color: #3a8454; 
 }

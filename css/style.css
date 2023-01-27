@@ -32,9 +32,15 @@ body {
     padding: 7%;
 }
 
+.row-news {
+    margin-bottom: 2rem;
+}
+
 .card-title {
     color: #3a8454;
 }
+
+
 
 .card img {
     border-radius: 0px;

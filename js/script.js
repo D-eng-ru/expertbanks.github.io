@@ -49,8 +49,4 @@
             distance: '30px',
             origin: 'bottom'
         }); 
-        sr.reveal('.card', {
-            duration: 2000,
-            distance: '30px',
-            origin: 'bottom'
-        }); 
+

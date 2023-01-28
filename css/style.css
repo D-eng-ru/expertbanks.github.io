@@ -445,7 +445,7 @@ small {
 
 .article-blockqoute {
     padding: 1rem;
-    background-color: #F5EBE6;
+    background-color: #f2f0ed;
     font-style: italic;
     
     color:darksalmon;   
@@ -458,4 +458,55 @@ small {
 .article-list li {
    padding-left: 1.5rem;  
     line-height: 3;
+}
+
+
+
+ /* FORMS */
+
+form {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+.form-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.input-group-text {
+    border-style: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 0.9em;
+    padding-left: 0;
+    
+}
+
+.form-control {
+    border-style: none;
+    border-radius: 0px;
+    padding: 0.7em;
+    background-color: #f2f0ed;
+}
+
+input[type=text]:focus {
+    background-color: #f2f0ed;
+    border: 1px solid #9A8C7E;
+}
+input[type=tel]:focus {
+    background-color: #f2f0ed;
+    border: 1px solid #9A8C7E;
+}
+input[type=email]:focus {
+    background-color: #f2f0ed;
+    border: 1px solid #9A8C7E;
+}
+
+.form-control:focus {
+    background-color: #f2f0ed;
+    border: 1px solid #9A8C7E;
 }

@@ -1,9 +1,11 @@
 /* Expert Banks */
 /* navbar css */
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@300;400;600;800&display=swap');
+
 body {
     background: #fff;
-    font-family: 'Iowan Old Style';
+    font-family: 'Lora', serif;
     color: #333;
     font-style: normal;
 }
@@ -363,7 +365,6 @@ small {
 }
 
 .block2 {
-    font-family:'Iowan Old Style';
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -429,4 +430,32 @@ small {
 }
 
 
+ /* ARTICLES */
 
+.article {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.article-data {
+    font-family: 'Open Snas', sans-serif;
+    color: #ccc;
+    font-weight: 300;
+}
+
+.article-blockqoute {
+    padding: 1rem;
+    background-color: #F5EBE6;
+    font-style: italic;
+    
+    color:darksalmon;   
+}
+
+.article-list {
+    list-style: square outside url("../images/icons/bullet.png");
+}
+
+.article-list li {
+   padding-left: 1.5rem;  
+    line-height: 3;
+}

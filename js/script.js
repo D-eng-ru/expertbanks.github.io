@@ -44,9 +44,12 @@
             distance: '30px',
             origin: 'bottom'
         }); 
+<<<<<<< Updated upstream
           sr.reveal('.carousel-inner', {
             duration: 2000,
             distance: '30px',
             origin: 'bottom'
         }); 
+=======
+>>>>>>> Stashed changes
 

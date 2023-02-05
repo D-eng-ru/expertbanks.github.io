@@ -12,9 +12,20 @@ body {
     font-style: normal;
 }
 
+
+
+
 .navbar {
     z-index: 10;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+
+
 .container {
     width: 1240px;
 }

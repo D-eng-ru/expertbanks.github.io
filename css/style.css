@@ -479,6 +479,7 @@ small {
  /* ARTICLES */
 
 .article {
+    padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
 }
